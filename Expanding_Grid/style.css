@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0; */
+    font-family: 'poppins', sans-serif;
+}
+
+/* three columns grid */
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    height: 300px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+}
+
+/* Add a background color on hover */
+
+.containerTab {
+    padding: 20px;
+    color: #fff;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/* Close button */
+
+.closeBtn {
+    float: right;
+    cursor: pointer;
+    font-size: 35px;
+    color: #fff;
+}
+
+#one {
+    background: #ff1770;
+    display: none;
+}
+
+#two {
+    background: #33FF49;
+    display: none;
+}
+
+#three {
+    background: #0097E8;
+    display: none;
+}
