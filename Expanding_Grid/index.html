@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expanding Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1>Expanding Grid</h1>
+        <p>Please Click the Box</p>
+    </div>
+
+    <!-- the columns -->
+     <div class="column" onclick="tabOpen('one')" style="background: #ff1770;">
+        Box 1
+     </div>
+
+     <div class="column" onclick="tabOpen('two')" style="background: #33FF49;">
+        Box 2
+     </div>
+
+     <div class="column" onclick="tabOpen('three')" style="background: #0097E8;">
+        Box 3
+     </div>
+
+     <!-- Hidden by default -->
+
+     <div id="one" class="containerTab" >
+        <span class="closeBtn">&times</span>
+        <h2>Box 1</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam nam, quaerat voluptatum alias inventore ipsa cum rem facere molestias cupiditate nihil deserunt illo incidunt, quo, dolorum molestiae error aspernatur quidem.</p>
+     </div>
+
+     <div id="two" class="containerTab">
+        <span class="closeBtn">&times</span>
+        <h2>Box 2</h2> 
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae et voluptatem, eaque nihil vitae praesentium aliquam ullam dolores! Eveniet ullam a veritatis laboriosam voluptate exercitationem sed, saepe autem rem quas.</p>
+     </div>
+
+     <div id="three" class="containerTab">
+        <span class="closeBtn">&times</span>
+        <h2>Box 3</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt similique mollitia vel rerum ipsam quo quasi asperiores, atque itaque repudiandae nostrum, odit unde eius magni sequi. Aliquid corporis soluta magnam?</p>
+     </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
